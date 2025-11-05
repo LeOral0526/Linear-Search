@@ -1,4 +1,6 @@
-nlist = [1, 12, 35, 47, 52, 68, 35, 35, 35]
+import random
+nlist = [random.randrange(1,101) for x in range(1, 101)]
+print(nlist)
 nlist.append(100)
 # the search term is the number in the list that the linear search is looking for
 searchTerm = int(input("Enter a number you'd like to search for: "))
