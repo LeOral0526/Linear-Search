@@ -1,5 +1,5 @@
 import random
-nlist = [random.randrange(1,101) for x in range(1, 101)]
+nlist = [random.randrange(1,101) for x in range(1, 10)]
 print(nlist)
 nlist.append(100)
 # the search term is the number in the list that the linear search is looking for
@@ -22,3 +22,4 @@ if (found == True):
 else:
     print("Data has not been found")
 # if the number you're searching for hasn't been found, it'll perform an else statement and tell you that your data hasn't been found
+
